@@ -1,85 +1,118 @@
-## 🎬 Movie Recommendation System
+![Movie Recommendation System Banner](https://via.placeholder.com/900x200/1E1E2F/FFFFFF?text=Movie+Recommendation+System)
 
-![GitHub stars](https://img.shields.io/github/stars/Ishika-guptaa25/Movie_Recommendation_System?style=for-the-badge&logo=github) 
-![GitHub forks](https://img.shields.io/github/forks/Ishika-guptaa25/Movie_Recommendation_System?style=for-the-badge&logo=git) 
-![GitHub issues](https://img.shields.io/github/issues/Ishika-guptaa25/Movie_Recommendation_System?style=for-the-badge&logo=github) 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) 
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
+# Movie Recommendation System
 
-A **Python-based Movie Recommendation System** with an **interactive Streamlit GUI** that recommends movies based on similarity. Find your next favorite movie in seconds! 🍿✨
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit)](https://streamlit.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Ishika-guptaa25)
+[![GitHub stars](https://img.shields.io/github/stars/Ishika-guptaa25/Movie_Recommendation_System?style=flat-square&logo=github)](https://github.com/Ishika-guptaa25/Movie_Recommendation_System/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Ishika-guptaa25/Movie_Recommendation_System?style=flat-square&logo=git)](https://github.com/Ishika-guptaa25/Movie_Recommendation_System/network)
 
----
-
-## 🚀 Features
-
-- 🔹 Recommend movies based on **user-selected movie**  
-- 🔹 **Similarity-based recommendation** using precomputed models (`.pkl` files)  
-- 🔹 Interactive **Streamlit web app** for **user-friendly interface**  
-- 🔹 Handles **large datasets** using **Git LFS**  
-- 🔹 Fast and efficient for **real-time recommendations**
+> A Python-based Movie Recommendation System with an interactive Streamlit interface. Quickly discover movies based on similarity and user input.
 
 ---
 
-## 📂 Project Structure
+## Features
 
-Movie_Recommendation_System/
-├── app.py # Main Streamlit app
-├── similarity.pkl # Precomputed similarity matrix (Git LFS)
-├── movies.pkl # Movie dataset (Git LFS)
-├── requirements.txt # Python dependencies
-└── README.md
-
+- Recommend movies based on user-selected movie  
+- Similarity-based recommendations using precomputed models (`.pkl` files)  
+- Interactive Streamlit web app for easy usage  
+- Handles large datasets with Git LFS  
+- Fast, real-time recommendations  
 
 ---
 
-## 🎬 Demo
+## Project Structure
 
-<img width="1093" height="797" alt="image" src="https://github.com/user-attachments/assets/954e57e1-8a57-4524-a4ce-a8acf5cf30d3" />
+<img width="1207" height="391" alt="image" src="https://github.com/user-attachments/assets/bd46d454-3ad5-401e-bf9e-99dcf6a35b48" />
+
+---
 
 
 ---
 
-## 🌐 Try Online
+## Demo
+
+<img width="1130" height="807" alt="image" src="https://github.com/user-attachments/assets/4c114ded-8241-4823-9659-d9764767c729" />
+
+
+---
+
+## Try Online
 
 https://movierecommendationsystem-ncrtjedukwuqxxkgzx2aic.streamlit.app/
-Click the button above to **run the app online instantly**! ⚡
+
+Run the app online instantly without any setup.
 
 ---
 
-## 🛠 How to Run Locally
+## How to Run Locally
 
-### 1. **Clone the repo**
-```bash
+bash
+# Clone repository
 git clone https://github.com/Ishika-guptaa25/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
-Install dependencies
 
-bash
-Copy code
+---
+
+# Install dependencies
 pip install -r requirements.txt
-Download LFS files (if using Git LFS)
 
-bash
-Copy code
+---
+
+# Download LFS files
 git lfs pull
-Run the Streamlit app
 
-bash
-Copy code
+---
+
+# Run the Streamlit app
 streamlit run app.py
-Open the browser at the URL Streamlit shows (usually http://localhost:8501)
 
 ---
 
-## 🎯 Usage
-Select or type a movie name in the input box.
+## Usage
 
-Click “Recommend”.
+Type or select a movie name in the input box
 
-Get a list of recommended movies instantly! 🎉
+Click "Recommend"
+
+View the recommended movie list instantly
 
 ---
 
+## Dependencies
 
+Python >= 3.8
 
-�️
+Streamlit
+
+Pandas
+
+scikit-learn
+
+Pickle
+
+Install via pip install -r requirements.txt
+
+---
+
+## Notes
+
+Ensure .pkl files are downloaded using Git LFS
+
+Large files (>25MB) are tracked automatically with Git LFS
+
+Run in a virtual environment to avoid conflicts
+
+Update LFS files if missing with git lfs pull
+
+---
+
+## Author
+
+Ishika Gupta
+Email: ishikagpt1@gmail.com
+
+GitHub: https://github.com/Ishika-guptaa25
+
+---
