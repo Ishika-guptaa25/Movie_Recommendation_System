@@ -63,17 +63,17 @@ No setup required — try it instantly in your browser.
 ## <span style="color:#3776AB;">How to Run Locally</span>
 
 
-# Clone repository
+### Clone repository
 git clone https://github.com/Ishika-guptaa25/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Download LFS files
+### Download LFS files
 git lfs pull
 
-# Run the Streamlit app
+### Run the Streamlit app
 streamlit run app.py
 <span style="color:#3776AB;">Usage</span>
 Type or select a movie name in the input box
