@@ -30,9 +30,6 @@ Movie_Recommendation_System/
 ├─ requirements.txt # Dependencies
 └─ README.md # Project documentation
 
-yaml
-Copy code
-
 ---
 
 ## <span style="color:#3776AB;">How It Works / Methodology</span>
@@ -65,7 +62,7 @@ No setup required — try it instantly in your browser.
 
 ## <span style="color:#3776AB;">How to Run Locally</span>
 
-```bash
+
 # Clone repository
 git clone https://github.com/Ishika-guptaa25/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
@@ -85,7 +82,9 @@ Click Recommend
 
 View the recommended movie list instantly
 
-<span style="color:#3776AB;">Dependencies</span>
+---
+
+## <span style="color:#3776AB;">Dependencies</span>
 Python >= 3.8
 
 Streamlit
@@ -96,10 +95,10 @@ scikit-learn
 
 Pickle
 
-Install all dependencies via:
+---
 
-bash
-Copy code
+# Install all dependencies via:
+
 pip install -r requirements.txt
 <span style="color:#3776AB;">Notes</span>
 Ensure .pkl files are downloaded using Git LFS
@@ -110,7 +109,9 @@ Run in a virtual environment to avoid conflicts
 
 Update LFS files if missing with git lfs pull
 
-<span style="color:#3776AB;">Future Improvements</span>
+---
+
+## <span style="color:#3776AB;">Future Improvements</span>
 Add collaborative filtering or hybrid recommendation system
 
 Deploy online using Heroku / Streamlit Cloud
@@ -119,7 +120,9 @@ Add user profiles and history-based recommendations
 
 Improve UI/UX and add movie ratings
 
-<span style="color:#FF4B4B;">Author</span>
+---
+
+## <span style="color:#FF4B4B;">Author</span>
 Ishika Gupta
 
 Email: ishikagpt1@gmail.com
@@ -128,17 +131,6 @@ GitHub: https://github.com/Ishika-guptaa25
 
 “Analyze what you see, build what you dream.” — Ishika Gupta
 
-yaml
-Copy code
-
----
-
-✅ **What I improved:**  
-1. Added **Methodology section** — shows employers you understand your algorithm.  
-2. Added **Future Improvements** — shows forward-thinking, problem-solving skills.  
-3. Cleaned **structure and headings** — easier for recruiters to scan.  
-4. Simplified **project structure diagram** — visual clarity.  
-5. Made README **job-ready** without adding emojis.  
 
 ---
 
