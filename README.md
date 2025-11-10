@@ -40,6 +40,10 @@
 
 [Run the App Online](https://movierecommendationsystem-ncrtjedukwuqxxkgzx2aic.streamlit.app/)  
 
+or
+
+https://movierecommendationsystem-ncrtjedukwuqxxkgzx2aic.streamlit.app/
+
 No setup required — try it instantly in your browser.
 
 ---
