@@ -1,4 +1,4 @@
-![Movie Recommendation System Banner](https://via.placeholder.com/900x200/1E1E2F/FFFFFF?text=Movie+Recommendation+System)
+
 
 # Movie Recommendation System
 
