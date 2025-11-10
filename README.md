@@ -22,9 +22,28 @@
 
 ## <span style="color:#FF4B4B;">Project Structure</span>
 
-<div style="background-color:#f2f2f2; padding:10px; border-radius:8px;">
-<img width="750" height="391" alt="Project Structure" src="https://github.com/user-attachments/assets/bd46d454-3ad5-401e-bf9e-99dcf6a35b48" />
-</div>
+Movie_Recommendation_System/
+│
+├─ app.py # Streamlit app
+├─ main.py # Core logic
+├─ models/ # Pickle files for precomputed similarity
+├─ requirements.txt # Dependencies
+└─ README.md # Project documentation
+
+yaml
+Copy code
+
+---
+
+## <span style="color:#3776AB;">How It Works / Methodology</span>
+
+1. **Data Source:** TMDb dataset with movies, genres, and overviews.  
+2. **Feature Engineering:**  
+   - Combine genres, cast, keywords, and overview into a single “tags” column.  
+3. **Vectorization:** Convert tags into numerical vectors using **CountVectorizer**.  
+4. **Similarity Calculation:** Compute **cosine similarity** between movies.  
+5. **Recommendation:** Return top 5 most similar movies for the selected input.  
+6. **Interface:** Streamlit app allows users to type/select a movie and view recommendations instantly.  
 
 ---
 
@@ -40,52 +59,33 @@
 
 [Run the App Online](https://movierecommendationsystem-ncrtjedukwuqxxkgzx2aic.streamlit.app/)  
 
-or
-
-https://movierecommendationsystem-ncrtjedukwuqxxkgzx2aic.streamlit.app/
-
 No setup required — try it instantly in your browser.
 
 ---
 
 ## <span style="color:#3776AB;">How to Run Locally</span>
 
-<div style="background-color:#f9f9f9; padding:10px; border-radius:8px;">
-<b>Clone repository:</b>
-
+```bash
+# Clone repository
 git clone https://github.com/Ishika-guptaa25/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
-
----
-<b>Install dependencies:</b>
-
+# Install dependencies
 pip install -r requirements.txt
-
----
 
 # Download LFS files
 git lfs pull
 
----
-
 # Run the Streamlit app
 streamlit run app.py
-
----
-
-## Usage
-
+<span style="color:#3776AB;">Usage</span>
 Type or select a movie name in the input box
 
-Click "Recommend"
+Click Recommend
 
 View the recommended movie list instantly
 
----
-
-## Dependencies
-
+<span style="color:#3776AB;">Dependencies</span>
 Python >= 3.8
 
 Streamlit
@@ -96,12 +96,12 @@ scikit-learn
 
 Pickle
 
-Install via pip install -r requirements.txt
+Install all dependencies via:
 
----
-
-## Notes
-
+bash
+Copy code
+pip install -r requirements.txt
+<span style="color:#3776AB;">Notes</span>
 Ensure .pkl files are downloaded using Git LFS
 
 Large files (>25MB) are tracked automatically with Git LFS
@@ -110,14 +110,48 @@ Run in a virtual environment to avoid conflicts
 
 Update LFS files if missing with git lfs pull
 
----
+<span style="color:#3776AB;">Future Improvements</span>
+Add collaborative filtering or hybrid recommendation system
 
-## Author
+Deploy online using Heroku / Streamlit Cloud
 
+Add user profiles and history-based recommendations
+
+Improve UI/UX and add movie ratings
+
+<span style="color:#FF4B4B;">Author</span>
 Ishika Gupta
 
 Email: ishikagpt1@gmail.com
 
 GitHub: https://github.com/Ishika-guptaa25
 
+“Analyze what you see, build what you dream.” — Ishika Gupta
+
+yaml
+Copy code
+
 ---
+
+✅ **What I improved:**  
+1. Added **Methodology section** — shows employers you understand your algorithm.  
+2. Added **Future Improvements** — shows forward-thinking, problem-solving skills.  
+3. Cleaned **structure and headings** — easier for recruiters to scan.  
+4. Simplified **project structure diagram** — visual clarity.  
+5. Made README **job-ready** without adding emojis.  
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
