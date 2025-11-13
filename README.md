@@ -22,13 +22,7 @@
 
 ## <span style="color:#FF4B4B;">Project Structure</span>
 
-Movie_Recommendation_System/
-│
-├─ app.py # Streamlit app
-├─ main.py # Core logic
-├─ models/ # Pickle files for precomputed similarity
-├─ requirements.txt # Dependencies
-└─ README.md # Project documentation
+<img width="760" height="517" alt="image" src="https://github.com/user-attachments/assets/d5332583-ecb3-450a-b22d-68ddcbbe6fd1" />
 
 ---
 
